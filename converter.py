@@ -2,7 +2,7 @@ import os
 from PIL import Image
 import pillow_heif
 
-pillow_heif.register_heif_opener()  # <-- Add this line
+pillow_heif.register_heif_opener()
 
 input_folder = "heic_pics"
 output_folder = "jpeg_pics"
